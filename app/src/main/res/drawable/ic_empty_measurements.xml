@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Soft circular backdrop in subtle Google yellow/amber or blue tint -->
+    <path
+        android:pathData="M60,60m-48,0a48,48 0 1,1 96,0a48,48 0 1,1 -96,0"
+        android:fillColor="#E8F0FE"
+        android:fillAlpha="0.65" />
+
+    <!-- Stylized Tape Measure Outer Casing (Rounded Squircle) -->
+    <path
+        android:pathData="M38,36 L70,36 A16,16 0 0,1 86,52 L86,72 A16,16 0 0,1 70,88 L38,88 A16,16 0 0,1 22,72 L22,52 A16,16 0 0,1 38,36 Z"
+        android:fillColor="#1A73E8" />
+
+    <!-- Tape Measure Center Hub -->
+    <path
+        android:pathData="M54,62m-16,0a16,16 0 1,1 32,0a16,16 0 1,1 -32,0"
+        android:fillColor="#FFFFFF" />
+
+    <path
+        android:pathData="M54,62m-8,0a8,8 0 1,1 16,0a8,8 0 1,1 -16,0"
+        android:fillColor="#185ABC" />
+
+    <!-- Extended Measuring Tape Strip -->
+    <path
+        android:pathData="M70,88 L98,88 A3,3 0 0,0 101,85 L101,74 A3,3 0 0,0 98,71 L76,71"
+        android:fillColor="#FBBC04" />
+
+    <!-- Tape Tick Marks -->
+    <path
+        android:pathData="M80,71 L80,77 M86,71 L86,81 M92,71 L92,77 M97,71 L97,81"
+        android:strokeColor="#5F6368"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Caliper Guide Accents -->
+    <path
+        android:pathData="M30,30 L38,22 M76,22 L84,30"
+        android:strokeColor="#34A853"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+</vector>

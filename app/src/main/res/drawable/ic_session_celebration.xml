@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Soft radiant background glow -->
+    <path
+        android:pathData="M60,60m-46,0a46,46 0 1,1 92,0a46,46 0 1,1 -92,0"
+        android:fillColor="#FEF7E0"
+        android:fillAlpha="0.8" />
+
+    <!-- Google Colored Festive Confetti & Ribbons -->
+    <!-- Blue Ribbon Left -->
+    <path
+        android:pathData="M24,36 C28,30 32,32 36,28"
+        android:strokeColor="#1A73E8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+    <!-- Red Confetti Dot -->
+    <path
+        android:pathData="M92,30m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#EA4335" />
+    <!-- Green Sparkle Right -->
+    <path
+        android:pathData="M96,52 L102,52 M99,49 L99,55"
+        android:strokeColor="#34A853"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <!-- Yellow Sparkle Left -->
+    <path
+        android:pathData="M18,58 L24,58 M21,55 L21,61"
+        android:strokeColor="#FBBC04"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Trophy Handles -->
+    <path
+        android:pathData="M38,44 C26,44 26,62 38,64"
+        android:strokeColor="#F29900"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M82,44 C94,44 94,62 82,64"
+        android:strokeColor="#F29900"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- Trophy Main Cup (Polished Golden Yellow) -->
+    <path
+        android:pathData="M36,36 L84,36 L80,68 C78,80 68,84 60,84 C52,84 42,80 40,68 Z"
+        android:fillColor="#FBBC04" />
+
+    <!-- Trophy Inner Rim Reflection -->
+    <path
+        android:pathData="M44,40 L76,40 L74,62 C72,70 66,74 60,74 C54,74 48,70 46,62 Z"
+        android:fillColor="#F9AB00" />
+
+    <!-- Center Form Star Badge in White -->
+    <path
+        android:pathData="M60,46 L62,52 L68,52 L63,56 L65,62 L60,58 L55,62 L57,56 L52,52 L58,52 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Trophy Stem & Base -->
+    <path
+        android:pathData="M56,84 L64,84 L64,94 L56,94 Z"
+        android:fillColor="#E37400" />
+    <path
+        android:pathData="M42,94 L78,94 A3,3 0 0,1 81,97 L81,102 L39,102 L39,97 A3,3 0 0,1 42,94 Z"
+        android:fillColor="#1A73E8" />
+</vector>

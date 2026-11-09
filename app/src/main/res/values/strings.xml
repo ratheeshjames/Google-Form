@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Google Form</string>
+    <string name="nav_today">Today</string>
+    <string name="nav_programme">Programme</string>
+    <string name="nav_transformation">Transform</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_coach">Avatar RPG</string>
+    <string name="nav_nutrition">Nutrition</string>
+    <string name="nav_exercises">Exercise Map</string>
+    <string name="nav_settings">Settings</string>
+    <string name="search_placeholder">Search exercises, measurements, insights...</string>
+</resources>

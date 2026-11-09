@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GoogleForm" parent="android:Theme.DeviceDefault.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Deep Google Surface Background for the late-2026 splash screen -->
+        <item name="windowSplashScreenBackground">#0F141C</item>
+        <!-- Volumetric glassmorphic launcher foreground as the animated icon -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <!-- Theme to seamlessly apply once the Compose hierarchy renders -->
+        <item name="postSplashScreenTheme">@style/Theme.GoogleForm</item>
+    </style>
+</resources>

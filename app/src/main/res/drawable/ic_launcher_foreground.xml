@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ========================================================================= -->
+    <!-- 1. HANDS-FREE WORKOUT TIMER 4-COLOR PROGRESS ARCS (Inside 66dp Safe Zone) -->
+    <!-- ========================================================================= -->
+    <!-- Top-Left Arc: Active Work Blue -->
+    <path
+        android:pathData="M24.5,48 A30,30 0 0,1 48,24.5"
+        android:fillColor="#00000000"
+        android:strokeColor="#4285F4"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round" />
+
+    <!-- Top-Right Arc: Warrior Crimson -->
+    <path
+        android:pathData="M60,24.5 A30,30 0 0,1 83.5,48"
+        android:fillColor="#00000000"
+        android:strokeColor="#EA4335"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round" />
+
+    <!-- Bottom-Right Arc: Prep Gold -->
+    <path
+        android:pathData="M83.5,60 A30,30 0 0,1 60,83.5"
+        android:fillColor="#00000000"
+        android:strokeColor="#FBBC04"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round" />
+
+    <!-- Bottom-Left Arc: Recovery Green -->
+    <path
+        android:pathData="M48,83.5 A30,30 0 0,1 24.5,60"
+        android:fillColor="#00000000"
+        android:strokeColor="#34A853"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round" />
+
+    <!-- ========================================================================= -->
+    <!-- 2. HEROIC 2D VECTOR WARRIOR ROOSTER SHIELD & PECTORAL WING EMBLEM         -->
+    <!-- ========================================================================= -->
+    <!-- Sweeping Golden-Bronze Wing Blades (Left & Right) -->
+    <path
+        android:pathData="M31,52 L24,44 L29,43 L25,37 L34,39 L38,44 L70,44 L74,39 L83,37 L79,43 L84,44 L77,52 L71,61 L37,61 Z"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.2"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="24"
+                android:startY="37"
+                android:endX="84"
+                android:endY="61"
+                android:startColor="#FFD54F"
+                android:centerColor="#FF9800"
+                android:endColor="#D84315" />
+        </aapt:attr>
+    </path>
+
+    <!-- Sculpted V-Taper Pectoral Armor Torso & Jagged Golden Neck Hackle Mane -->
+    <path
+        android:pathData="M37,46 L71,46 L68,62 L54,67 L40,62 Z"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.2"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54"
+                android:startY="45"
+                android:endX="54"
+                android:endY="67"
+                android:startColor="#FFE082"
+                android:centerColor="#FFB300"
+                android:endColor="#E65100" />
+        </aapt:attr>
+    </path>
+
+    <!-- Left & Right Cel-Shaded Pectoral Plate Definition Lines + Sternum Seam -->
+    <path
+        android:pathData="M54,49 L54,64 M41,53 Q47,58 53,55 M67,53 Q61,58 55,55"
+        android:fillColor="#00000000"
+        android:strokeColor="#23120B"
+        android:strokeWidth="1.9"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Jagged Golden Neck Hackle Collar (Draping over Upper Chest) -->
+    <path
+        android:pathData="M42,41 L36,49 L43,47 L46,52 L51,48 L54,53 L57,48 L62,52 L65,47 L72,49 L66,41 Z"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.0"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54"
+                android:startY="40"
+                android:endX="54"
+                android:endY="53"
+                android:startColor="#FFF59D"
+                android:centerColor="#FFCA28"
+                android:endColor="#F57C00" />
+        </aapt:attr>
+    </path>
+
+    <!-- ========================================================================= -->
+    <!-- 3. 5-PEAK SERRATED CRIMSON ROOSTER COMB, FIERCE HEAD & CHISELED BEAK      -->
+    <!-- ========================================================================= -->
+    <!-- 5-Peak Serrated Crimson Rooster Comb -->
+    <path
+        android:pathData="M43,34 L40,26 L46,29 L48,22 L52,27 L54,20 L56,27 L60,22 L62,29 L68,26 L65,34 Z"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.0"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54"
+                android:startY="20"
+                android:endX="54"
+                android:endY="34"
+                android:startColor="#FF5252"
+                android:endColor="#C62828" />
+        </aapt:attr>
+    </path>
+
+    <!-- Sculpted 2D Golden Rooster Head -->
+    <path
+        android:pathData="M54,29 C61,29 65,33.5 64,40.5 C63,45 59,48 54,48 C49,48 45,45 44,40.5 C43,33.5 47,29 54,29 Z"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.2"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="52"
+                android:centerY="35"
+                android:gradientRadius="14"
+                android:startColor="#FFF59D"
+                android:centerColor="#FFCA28"
+                android:endColor="#F57F17" />
+        </aapt:attr>
+    </path>
+
+    <!-- Crimson Dojo Headband across Upper Forehead -->
+    <path
+        android:pathData="M44.5,34.5 Q54,36.5 63.5,34.5"
+        android:fillColor="#00000000"
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round" />
+
+    <!-- Fierce Angled Warrior Eyes (Left & Right) -->
+    <path
+        android:pathData="M46.5,38.5 L51.5,39.8 L50.5,41.8 L47.0,41.0 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#23120B"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M61.5,38.5 L56.5,39.8 L57.5,41.8 L61.0,41.0 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#23120B"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round" />
+    <!-- Dark Pupils -->
+    <path
+        android:pathData="M49.2,40.2m-1.1,0a1.1,1.1 0 1,1 2.2,0a1.1,1.1 0 1,1 -2.2,0"
+        android:fillColor="#1B100A" />
+    <path
+        android:pathData="M58.8,40.2m-1.1,0a1.1,1.1 0 1,1 2.2,0a1.1,1.1 0 1,1 -2.2,0"
+        android:fillColor="#1B100A" />
+
+    <!-- Twin Crimson Wattles under Beak -->
+    <path
+        android:pathData="M51.5,45.5 C50,49.5 52.5,51 53.5,47.5 Z M56.5,45.5 C58,49.5 55.5,51 54.5,47.5 Z"
+        android:fillColor="#D32F2F"
+        android:strokeColor="#23120B"
+        android:strokeWidth="1.1"
+        android:strokeLineJoin="round" />
+
+    <!-- Chiseled Diamond Golden Beak -->
+    <path
+        android:pathData="M50,42.5 L54,39.5 L58,42.5 L54,48.5 Z"
+        android:strokeColor="#23120B"
+        android:strokeWidth="1.8"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="50"
+                android:startY="42"
+                android:endX="58"
+                android:endY="46"
+                android:startColor="#FFE082"
+                android:centerColor="#FFB300"
+                android:endColor="#E65100" />
+        </aapt:attr>
+    </path>
+
+    <!-- ========================================================================= -->
+    <!-- 4. HEAVY HEXAGONAL DUMBBELL BAR AT LOWER FOREGROUND                       -->
+    <!-- ========================================================================= -->
+    <!-- Steel Knurled Crossbar -->
+    <path
+        android:pathData="M36,68.5 L72,68.5 L72,73.5 L36,73.5 Z"
+        android:fillColor="#B0BEC5"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.0"
+        android:strokeLineJoin="round" />
+
+    <!-- Left Outer & Inner Hex Dumbbell Plates -->
+    <path
+        android:pathData="M29,63 L34,63 L34,79 L29,79 Z"
+        android:fillColor="#37474F"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.0"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M34,61 L40,61 L40,81 L34,81 Z"
+        android:fillColor="#FFB300"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.0"
+        android:strokeLineJoin="round" />
+
+    <!-- Right Inner & Outer Hex Dumbbell Plates -->
+    <path
+        android:pathData="M68,61 L74,61 L74,81 L68,81 Z"
+        android:fillColor="#FFB300"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.0"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M74,63 L79,63 L79,79 L74,79 Z"
+        android:fillColor="#37474F"
+        android:strokeColor="#23120B"
+        android:strokeWidth="2.0"
+        android:strokeLineJoin="round" />
+
+    <!-- Center Championship Star Buckle on Dumbbell Bar -->
+    <path
+        android:pathData="M50,66 L58,66 L60,71 L58,76 L50,76 L48,71 Z"
+        android:fillColor="#FF5252"
+        android:strokeColor="#23120B"
+        android:strokeWidth="1.8"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Soft circular backdrop in subtle Google blue container tint -->
+    <path
+        android:pathData="M60,60m-48,0a48,48 0 1,1 96,0a48,48 0 1,1 -96,0"
+        android:fillColor="#E8F0FE"
+        android:fillAlpha="0.65" />
+
+    <!-- Calendar / Activity Log Sheet -->
+    <path
+        android:pathData="M36,32 L84,32 A6,6 0 0,1 90,38 L90,86 A6,6 0 0,1 84,92 L36,92 A6,6 0 0,1 30,86 L30,38 A6,6 0 0,1 36,32 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Sheet Top Header in Google Blue -->
+    <path
+        android:pathData="M30,38 A6,6 0 0,1 36,32 L84,32 A6,6 0 0,1 90,38 L90,46 L30,46 Z"
+        android:fillColor="#1A73E8" />
+
+    <!-- Calendar Rings -->
+    <path
+        android:pathData="M44,26 L44,36 M76,26 L76,36"
+        android:strokeColor="#70757A"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Minimalist Workout Pulse / Barbell Lines inside sheet -->
+    <path
+        android:pathData="M40,58 L48,58 M54,58 L78,58"
+        android:strokeColor="#BDC1C6"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M40,70 L64,70 M70,70 L78,70"
+        android:strokeColor="#BDC1C6"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M40,82 L52,82"
+        android:strokeColor="#BDC1C6"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- Floating Stylized Dumbbell Indicator in Foreground -->
+    <path
+        android:pathData="M72,74 L86,88"
+        android:strokeColor="#1A73E8"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M68,78 L76,70 M82,92 L90,84"
+        android:strokeColor="#185ABC"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+</vector>

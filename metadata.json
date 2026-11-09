@@ -1,0 +1,6 @@
+{
+  "name": "Google Form",
+  "description": "Intelligent personal body transformation and 6-day periodized hypertrophy trainer with strict 30-minute workout pacing, anthropometric tape tracking, progressive overload analysis, and offline-first voice coaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

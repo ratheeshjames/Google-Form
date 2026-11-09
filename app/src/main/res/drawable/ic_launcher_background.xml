@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Layer 1: Deep Sanctuary Dojo Slate-Navy Diagonal Gradient -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:startColor="#0D1622"
+                android:centerColor="#162538"
+                android:endColor="#1F344D" />
+        </aapt:attr>
+    </path>
+
+    <!-- Layer 2: Subtle Concentric Dojo Grid & Golden Sanctuary Aura -->
+    <path
+        android:pathData="M54,54m-46,0a46,46 0 1,1 92,0a46,46 0 1,1 -92,0"
+        android:fillAlpha="0.32">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="52"
+                android:gradientRadius="46"
+                android:startColor="#FFB300"
+                android:centerColor="#44FF6F00"
+                android:endColor="#00162538" />
+        </aapt:attr>
+    </path>
+
+    <!-- Layer 3: Subtle Outer Sanctuary Ring -->
+    <path
+        android:pathData="M54,54m-40,0a40,40 0 1,1 80,0a40,40 0 1,1 -80,0"
+        android:fillColor="#00000000"
+        android:strokeColor="#2C4460"
+        android:strokeWidth="1.2" />
+</vector>
